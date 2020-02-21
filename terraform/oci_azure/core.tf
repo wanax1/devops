@@ -37,7 +37,7 @@ resource oci_core_vcn export_gw-vcn-01 {
   defined_tags   = {}
 
   display_name  = "gw-vcn-01"
-  dns_label     = "gwvcn01"
+  dns_label     = "gw1vcn01"
   freeform_tags = {}
 
   #ipv6cidr_block = <<Optional value not found in discovery>>
@@ -63,7 +63,7 @@ resource oci_core_default_dhcp_options export_Default-DHCP-Options-for-gw-vcn-01
   options {
     #custom_dns_servers = <<Optional value not found in discovery>>
     search_domain_names = [
-      "gwvcn01.oraclevcn.com",
+      "gw1vcn01.oraclevcn.com",
     ]
 
     #server_type = <<Optional value not found in discovery>>
