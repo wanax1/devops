@@ -1,0 +1,10 @@
+export TF_VAR_tenancy_ocid=ocid1.tenancy.oc1..aaaaaaaae4rfnh3kpszcpairf23ubnyinykvxokcwjuudqthkycvqhksg5ya
+export TF_VAR_compartment_ocid=ocid1.compartment.oc1..aaaaaaaa3zxer3m3c6eiwqvmafghfqvjhdhetlztekidrbg5iegugbpssceq
+export TF_VAR_user_ocid=ocid1.user.oc1..aaaaaaaaeicbo5tkqzrvj7rmg3ieqpc5cavxff5bj7fusabzalpwy3whdgea
+export TF_VAR_fingerprint=ba:2c:99:5c:5c:8e:0e:cf:c9:fb:1e:2f:0b:01:90:0d
+export TF_VAR_private_key_path=/d/downloads/Terraform/oci/gary2019.pem
+export TF_VAR_ssh_public_key=$(cat /d/downloads/Terraform/oci/g2019.pub)
+export TF_VAR_ssh_private_key=$(cat /d/downloads/Terraform/oci/g2019)
+export TF_VAR_region=us-ashburn-1
+
+
